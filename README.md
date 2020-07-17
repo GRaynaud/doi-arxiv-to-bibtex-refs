@@ -47,3 +47,6 @@ I adapted a code from [1] with some changes as :
 [1] Simplifying the management of scientific reference and citation with a minimalist DOI-BibTex-LaTeX approach, Wei Li, dx.doi.org/10.15761/CMID.1000139
 
 [2] arxiv2bib repository package, https://pypi.org/project/arxiv2bib/ 
+
+
+More from https://graynaud.github.io/gh-pages/making-references-easier-in-latex/
