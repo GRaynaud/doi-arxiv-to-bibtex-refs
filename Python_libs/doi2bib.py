@@ -4,6 +4,7 @@ Python Code from
 Simplifying the management of scientific reference and citation with a minimalist DOI-BibTex-LaTeX approach
 
 author : Wei Li
+Addings by Gaétan Raynaud
 
 Reference : doi: 10.15761/CMID.1000139
 

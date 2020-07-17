@@ -11,7 +11,9 @@ Addings :
     5. arXiv id support thanks to arxiv2bib module
     6. Adding some comments
     
-by Gaétan Raynaud, July 2020
+authors :
+    Wei Li
+    Gaétan Raynaud, July 2020
 
 """
 
