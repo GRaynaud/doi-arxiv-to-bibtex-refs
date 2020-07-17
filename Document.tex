@@ -1,0 +1,47 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+
+\usepackage[
+backend=biber,
+style=alphabetic,
+sorting=ynt
+]{biblatex}
+
+\addbibresource{sample.bib} %Imports bibliography file
+
+\title{Bibliography management: \texttt{biblatex} package}
+\author{Share\LaTeX}
+\date{ }
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+\section{First section}
+
+Using \texttt{biblatex} you can display bibliography divided into sections, depending of citation type. 
+Let's cite! Einstein's journal paper \cite{10.1002/andp.19053221004} and the Dirac's book \cite{dirac} are physics related items. 
+Next, \textit{The \LaTeX\ Companion} book \cite{latexcompanion}, the Donald Knuth's website \cite{knuthwebsite}, \textit{The Comprehensive Tex Archive Network} (CTAN) \cite{ctan} are \LaTeX\ related items; but the others Donald Knuth's items \cite{knuth-fa,knuth-acp} are dedicated to programming. 
+
+\medskip
+
+\includefile{sections/page1.tex}
+
+\printbibliography[
+heading=bibintoc,
+title={Whole bibliography}
+] %Prints the entire bibliography with the titel "Whole bibliography"
+
+\clearpage
+
+%Filters bibliography
+\printbibliography[heading=subbibintoc,type=article,title={Articles only}]
+\printbibliography[type=book,title={Books only}]
+
+\printbibliography[keyword={physics},title={Physics-related only}]
+\printbibliography[keyword={latex},title={\LaTeX-related only}]
+
+\end{document}
