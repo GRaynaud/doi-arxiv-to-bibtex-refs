@@ -31,11 +31,16 @@ I adapted a code from [1] with some changes as :
     1. Verification for doi format
     
     2. Replacing the usual ref key by the doi so that it matches the \cite{doi}
+    
     3. Proper export to bib file
+    
     4. Sub folder checking for .tex files research
+    
     5. arXiv id support thanks to arxiv2bib module
+    
     6. Adding some comments
 
 
 [1] Simplifying the management of scientific reference and citation with a minimalist DOI-BibTex-LaTeX approach, Wei Li, dx.doi.org/10.15761/CMID.1000139
+
 [2] arxiv2bib repository package, https://pypi.org/project/arxiv2bib/ 
