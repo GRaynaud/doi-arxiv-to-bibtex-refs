@@ -5,10 +5,11 @@ Part of this code is from Wei Li (doi: 10.15761/CMID.1000139)
 
 Addings :
     1. Check for doi format
-    2. Proper export to bibi file
-    3. Sub folder checking for .tex files research
-    4. arXiv id support thanks to arxiv2bib module
-    5. Adding some comments
+    2. Replacing the usual ref key by the doi so that it matches the \cite{doi}
+    3. Proper export to bib file
+    4. Sub folder checking for .tex files research
+    5. arXiv id support thanks to arxiv2bib module
+    6. Adding some comments
     
 by Gaétan Raynaud, July 2020
 
