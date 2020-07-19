@@ -4,13 +4,11 @@
 
 As explained in [1], the usual way of citing references in Latex could be made easier by using directly the doi (unique identifier)
 
-Execute python script Python_libs/Split.py in order to generate a .bib reference file.
-
+Execute python script Python_libs/Split.py in order to generate a .bib reference file. Or directly call it from your Latex project (see [3])
 
 The script browses all the .tex files contained in the directories and sub-directories. It detects the citation keys \cite{key} in DOI or arXiv id format. For each identifier, the information is retrieved and a .bib file is generated. A list of existing reference files .bib can be merged with the generated file.
 
-
-As an exemple, if you use arXiv format \cite{2003.02751} or a doi \cite{10.1016/j.jcp.2018.10.045}, the following information will be added in the .bib file
+As an exemple, if you use arXiv format \cite{2003.02751v2} or a doi \cite{10.1016/j.jcp.2018.10.045}, the following information will be added in the .bib file
 
 
  @article{2003.02751v2,
@@ -48,5 +46,4 @@ I adapted a code from [1] with some changes as :
 
 [2] arxiv2bib repository package, https://pypi.org/project/arxiv2bib/ 
 
-
-More from https://graynaud.github.io/gh-pages/making-references-easier-in-latex/
+[3] More from my blog post https://graynaud.github.io/gh-pages/making-references-easier-in-latex/
