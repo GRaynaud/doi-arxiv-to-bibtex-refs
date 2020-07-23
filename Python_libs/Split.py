@@ -18,7 +18,8 @@ authors :
 """
 
 import os
-import sys, numpy
+import sys
+import numpy
 
 from doi2bib import pydoi2bib
 
