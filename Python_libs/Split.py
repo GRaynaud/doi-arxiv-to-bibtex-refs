@@ -82,7 +82,7 @@ text_complet = ''
 # Ajout des references externes
 
 for refsfilename in external_bibtexfile_references:
-    file = open(refsfilename,'r')
+    file = open(refsfilename,'r',encoding='utf-8')
     text_complet += file.read()
     text_complet += ' \n \n '
     file.close()    
